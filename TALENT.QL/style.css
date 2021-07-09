@@ -1,0 +1,1148 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(1, 1, 2);
+}
+
+.top-logo {
+    color: #edf0f1;
+    font-family: sans-serif;
+    font-weight: 800px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+.first-link {
+    font-size: 15px;
+    font-weight: 100;
+    color: #0088a9;
+}
+
+a {
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 14px;
+    font-size: 14.5px;
+    font-weight: 650;
+    color: white;
+}
+
+.nav-links li {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+#first-btn {
+    padding: 18px;
+    margin: 8px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(0, 139, 169, 1);
+    transition: all 0.3 ease 0s;
+}
+
+#first-btn {
+    transition: all 0.3s ease 0s;
+}
+
+#first-btn:hover {
+    color:  rgb(255, 255, 255);
+} 
+
+#first-btn:hover {
+    border-color: #0088a9;
+    background-color: #0088a9;
+    transition: .5s;
+} 
+
+#second-btn {
+    padding: 18px;
+    margin: 8px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(0, 139, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3 ease 0s;
+}
+
+
+
+#second-btn {
+    transition: all 0.3s ease 0s;
+}
+
+#second-btn:hover {
+    color: rgba(0, 139, 169, 1);
+} 
+
+#second-btn:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+} 
+
+.cta {
+    position: absolute;
+    left: 950px;
+}
+
+.bg-img {
+    height: 820px;
+    width: 1349px;
+    background-size: cover;
+    background-image: url(/Aiaiai_Daydream-e1557408125464.jpg);
+    position: fixed;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+#section-one{
+    position: relative;
+}
+h1 {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 750;
+    color: white;
+}
+
+h5 {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+#hire-btn {
+    position: absolute;
+    top: 510px;
+    left: 110px;
+    height: 60px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0, 139, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3 ease 0s;
+}
+
+#hire-btn {
+    transition: all 0.3s ease 0s;
+}
+
+#hire-btn:hover {
+    color: rgba(0, 139, 169, 1);
+} 
+
+#hire-btn:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: .8s;
+} 
+
+#backed-by {
+    position: absolute;
+    top: 640px;
+    left: 123px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.companies {
+    height: 22px;
+    position: relative;
+    top: 680px;
+    left: 110px;
+    padding: 10px;
+}
+
+#section-two {
+    position: relative;
+}
+
+.section-two {
+    background-color: rgb(2, 1, 5);
+    height: 800px;
+    position: relative;
+    top: 799px;
+}
+
+#sec-img {
+    height: 478px;
+    width: 430px;
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+    left: 175px;
+}
+
+h2 {
+    position: absolute;
+    top: 60px;
+    left: 680px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-one {
+    position: absolute;
+    top: 170px;
+    left: 680px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: rgb(158, 154, 154);
+}
+
+#paragraph-two {
+    position: absolute;
+    top: 200px;
+    left: 680px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: rgb(158, 154, 154);
+}
+
+#paragraph-three {
+    position: absolute;
+    top: 230px;
+    left: 680px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: rgb(158, 154, 154);
+}
+
+span {
+    position: relative;
+    padding-right: 150px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    top: 500px;
+    left: 680px;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-four {
+    position: absolute;
+    top: 1550px;
+    left: 680px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-five {
+    position: absolute;
+    top: 1580px;
+    left: 680px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-six {
+    position: absolute;
+    top: 1550px;
+    left: 988px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-seven {
+    position: absolute;
+    top: 1580px;
+    left: 988px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph-eight {
+    position: absolute;
+    top: 1610px;
+    left: 988px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.section-three {
+    background-color:  rgb(0, 0, 11);
+    height: 800px;
+    position: relative;
+    top: 748px;
+}
+
+.topic-one {
+    position: absolute;
+    top: 55px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+
+.topic-two {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+
+.side-one {
+    position: absolute;
+    left: 700px;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    top: 90px;
+    color: white;
+}
+
+.side-two {
+    position: absolute;
+    left: 700px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 200;
+    top: 120px;
+    color: white;
+}
+
+
+.card-i {
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 260px;
+    left: 126px;
+    top: 250px;
+    border-radius: 20px;
+}
+
+.content-i {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.card-ii {
+    position: absolute;
+    background-color: black;
+    height: 450px;
+    width: 260px;
+    left: 410px;
+    top: 250px;
+    color: white;
+    border-radius: 20px;
+}
+
+.content-ii {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.card-iii {
+    position: absolute;
+    background-color: black;
+    height: 450px;
+    width: 260px;
+    left: 690.5px;
+    top: 250px;
+    border-radius: 20px;
+    color: white;
+}
+
+.content-iii {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.card-iv {
+    position: absolute;
+    background-color: black;
+    width: 260px;
+    height: 450px;
+    left: 970px;
+    top: 250px;
+    border-radius: 20px;
+    color: white;
+}
+
+.content-iv {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.one {
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.two{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.three{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.four{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: sans-serif;
+}
+
+.five{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: sans-serif;
+}
+
+#one{
+    font-size: 13px;
+    font-family: sans-serif;
+    position: relative;
+    top: 185px;
+    left: 30px;
+}
+
+#two{
+    font-size: 13px;
+    font-family: sans-serif;
+    position: relative;
+    top: 185px;
+    left: 30px;
+}
+
+#three{
+    font-size: 13px;
+    font-family: sans-serif;
+    position: relative;
+    top: 185px;
+    left: 30px;
+}
+
+#four{
+    font-size: 13px;
+    position: relative;
+    top: 185px;
+    left: 30px;
+    font-family: sans-serif;
+}
+
+#five{
+    font-size: 13px;
+    position: relative;
+    top: 185px;
+    left: 30px;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 13px;
+    position: relative;
+    top: 185px;
+    left: 30px;
+    font-family: sans-serif;
+}
+
+.section-four {
+    position: relative;
+    height: 800px;
+    top: 720px;
+}
+#third-img {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+
+h4{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+h6 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(158, 154, 154);
+}
+
+.section-eight {
+    background-color: rgb(8, 10, 15);
+    position: absolute;
+    height: 1000px;
+    width: 1349px;
+    top: 3400px;
+}
+
+.added-head-i{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40px;
+    left: 150px;
+    top: 100px;
+    color: white;
+}
+
+.added-head-ii {
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.added-head-iii {
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.added-box {
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.added-box-i {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 115px;
+    left: 870px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-ii {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 300px;
+    left: 870px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-iii {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 500px;
+    left: 130px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-iv {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 500px;
+    left: 500px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-v {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 500px;
+    left: 870px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-vi {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 682px;
+    left: 130px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-vii {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 682px;
+    left: 500px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.added-box-viii {
+    position: absolute;
+    background: black;
+    width: 350px;
+    height: 160px;
+    top: 682px;
+    left: 870px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+ 
+ 
+ 
+.section-five{
+    background-color: rgb(0, 0, 11);
+    position: relative;
+    top: 1800px;
+    height: 860px;
+}
+
+.sub-i-head{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sub-ii-head{
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sub-iii-head{
+    position: absolute;
+    top: 220px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo-img{
+    position: relative;
+    top: 400px;
+    left: 686px;
+    height: 35px;
+    padding: 16px;
+}
+
+.logo-i-img{
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    height: 20px;
+    padding: 15px;
+}
+
+.logo-ii-img{
+    position: absolute;
+    top: 400px;
+    left: 920px;
+    height: 40px;
+    padding: 15px;
+}
+
+.logo-iii-img{
+    position: absolute;
+    top: 400px;
+    left: 1038px;
+    height: 68px;
+    padding: 16px;
+}
+
+.side-img{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    width: 360px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.box-1 {
+    height: 200px;
+    width: 360px;
+    background-color: white;
+    position: absolute;
+    top: 448px;
+    left: 200px;
+}
+
+
+.box-2 {
+    height: 150px;
+    width: 360px;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    top: 600px;
+    left: 200px;
+}
+
+.box2-paragraph-i {
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.box2-paragraph-ii {
+    position: absolute;
+    top: 60px;
+    color: black;
+}
+
+.box2-paragraph-iii {
+    position: absolute;
+    color: black;
+    top: 80px;
+}
+
+.tech-point {
+    position: absolute;
+    height: 25px;
+    top: 70px;
+    left: 220px;
+}
+
+.box-paragraph-i {
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.box-paragraph-ii {
+    position: absolute;
+    top: 35px;
+    color: black;
+    font-size: 18px;
+}
+
+.box-paragraph-iii {
+    position: absolute;
+    top: 60px;
+    color: black;
+    font-size: 18px;
+}
+
+.box-paragraph-iv {
+    position: absolute;
+    top: 85px;
+    color: black;
+    font-size: 18px;
+}
+
+.box-paragraph-v {
+    position: absolute;
+    top: 109px;
+    color: black;
+    font-size: 18px;
+}
+
+.section-six{
+    position: relative;
+    top: 1800px;
+    background-image: url(/kilo_image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.section-six::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+#sub-head-i{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+}
+
+#sub-head-ii{
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+}
+
+#sub-head-iii{
+    position: absolute;
+    top: 140px;
+    left: 750px;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+}
+
+#sub-head-iv{
+    position: absolute;
+    top: 190px;
+    left: 750px;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+}
+
+.first-head {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    font-size: 16px;
+}
+
+.sec-head{
+    position: absolute;
+    top: 280px;
+    left: 750px;
+    font-size: 16px;
+}
+
+.one-btn {
+    padding: 18px;
+    margin: 8px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(0, 139, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3 ease 0s;
+    position: absolute;
+    top: 4700px;
+    left: 190px;
+}
+
+
+
+.one-btn {
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    margin-top: 950px;
+    left: 110px;
+}
+
+.one-btn:hover {
+    color: rgba(0, 139, 169, 1);
+} 
+
+.one-btn:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+} 
+
+
+.two-btn {
+    height: 60px;
+    width: 180px;
+    left: 750px;
+    margin-top: 950px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(0, 139, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3 ease 0s;
+    position: absolute;
+    top: 4700px;
+}
+
+
+
+.two-btn {
+    transition: all 0.3s ease 0s;
+}
+
+.two-btn:hover {
+    color: rgba(0, 139, 169, 1);
+} 
+
+.two-btn:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+} 
+
+.section-seven{
+    position: relative;
+    height: 500px;
+    top: 1800px;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.last-head-i {
+    position: absolute;
+    left: 170px;
+    font-size: 20px;
+    bottom: 500px;
+}
+
+.last-head-ii {
+    position: absolute;
+    left: 400px;
+    bottom: 500px;
+}
+
+.last-head-iii {
+    position: absolute;
+    left: 600px;
+    bottom: 500px;
+}
+
+.last-head-iv {
+    position: absolute;
+    left: 800px;
+    bottom: 500px;
+}
+
+.last-head-v {
+    position: absolute;
+    left: 1000px;
+    bottom: 500px;
+}
+
+#last-head-i {
+    font-size: 20px;
+}
+
+#last-head-ii {
+    font-size: 20px;
+}
+
+#last-head-iii {
+    font-size: 20px;
+}
+
+#last-head-iv {
+    font-size: 20px;
+}
+
+#last-head-v {
+    font-size: 20px;
+}
+
+.last-i-paragraph {
+    position: absolute;
+    left: 200px;
+    top: 210px;
+    color: rgb(72, 72, 73);
+}
+
+.last-ii-paragraph {
+    position: absolute;
+    left: 200px;
+    top: 240px;
+    color: rgb(72, 72, 73);
+}
+
+.contact-i {
+    position: absolute;
+    left: 430px;
+    top: 210px;
+    color: rgb(72, 83, 100);
+}
+
+.contact-ii {
+    position: absolute;
+    left: 430px;
+    top: 240px;
+    color: rgb(72, 83, 100);
+}
+
+.contact-iii {
+    position: absolute;
+    left: 430px;
+    top: 270px;
+    color: rgb(72, 83, 100);
+}
+
+.hire-i {
+    position: absolute;
+    left: 630px;
+    top: 210px;
+    color: rgb(72, 83, 100);
+}
+
+ .hire-ii {
+    position: absolute;
+    left: 630px;
+    top: 240px;
+    color: rgb(72, 83, 100);
+ }
+
+ .get-i {
+    position: absolute;
+    left: 830px;
+    top: 210px;
+    color: rgb(72, 83, 100);
+ }
+
+ .get-ii {
+    position: absolute;
+    left: 830px;
+    top: 240px;
+    color: rgb(72, 83, 100);
+ }
+
+ .sep-paragraph-i {
+    position: absolute;
+    left: 1030px;
+    top: 210px;
+    color: rgb(72, 72, 73);
+ }
+
+ .sep-paragraph-ii {
+    position: absolute;
+    left: 1030px;
+    top: 240px;
+    color: rgb(72, 72, 73);
+ }
+
+ .sep-paragraph-iii {
+    position: absolute;
+    left: 1030px;
+    top: 270px;
+    color: rgb(72, 72, 73);
+ }
+
+ .sep-paragraph-iv {
+    position: absolute;
+    left: 1017.5px;
+    top: 330px;
+    color: rgb(72, 83, 100);
+ }
+
+ 
